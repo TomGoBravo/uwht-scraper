@@ -20,7 +20,7 @@ jobs:
     - name: Fetch latest belgiumuwh.be data
       run: |-
         curl 'https://www.belgiumuwh.be/clubs-in-belgium/' > belgiumuwh.be.clubs-in-belgium.html
-    - name: Fetch latest belgiumuwh.be data
+    - name: Fetch latest cuga.org data
       run: |-
         curl 'http://cuga.org/en/where-and-when-uwh/' > cuga.org.en.where-and-when-uwh.html
     - name: Commit and push if it changed
