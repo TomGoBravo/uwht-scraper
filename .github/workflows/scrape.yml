@@ -6,7 +6,7 @@ on:
   push:
   workflow_dispatch:
   schedule:
-  - cron: '0 * * * *'
+  - cron: '0 0 * * *'
 
 jobs:
   scheduled:
@@ -19,7 +19,10 @@ jobs:
         curl 'https://uwhnews.more-sport.com/where-to-flick/' > uwhnews.more-sport.com.where-to-flick.html
     - name: Fetch latest belgiumuwh.be data
       run: |-
-        curl 'https://www.belgiumuwh.be/clubs-in-belgium/' > belgiumuwh.be.clubs-in-belgium.html        
+        curl 'https://www.belgiumuwh.be/clubs-in-belgium/' > belgiumuwh.be.clubs-in-belgium.html
+    - name: Fetch latest belgiumuwh.be data
+      run: |-
+        curl 'http://cuga.org/en/where-and-when-uwh/' > cuga.org.en.where-and-when-uwh.html
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
