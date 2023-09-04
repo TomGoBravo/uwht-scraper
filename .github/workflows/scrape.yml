@@ -22,7 +22,7 @@ jobs:
         curl 'https://www.belgiumuwh.be/clubs-in-belgium/' > belgiumuwh.be.clubs-in-belgium.html
     - name: Fetch latest cuga.org data
       run: |-
-        curl 'http://cuga.org/en/where-and-when-uwh/' > cuga.org.en.where-and-when-uwh.html
+        curl -A 'Mozilla/5.0 uwht-scraper' 'http://cuga.org/en/where-and-when-uwh/' > cuga.org.en.where-and-when-uwh.html
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
