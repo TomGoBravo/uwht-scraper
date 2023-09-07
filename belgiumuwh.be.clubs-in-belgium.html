@@ -50,9 +50,9 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 .wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
 </style>
 <link rel='stylesheet' id='fvp-frontend-css' href='https://www.belgiumuwh.be/wp-content/plugins/featured-video-plus/styles/frontend.css' type='text/css' media='all' />
-<link rel='stylesheet' id='simcal-qtip-css' href='https://www.belgiumuwh.be/wp-content/plugins/google-calendar-events/assets/css/vendor/jquery.qtip.min.css' type='text/css' media='all' />
-<link rel='stylesheet' id='simcal-default-calendar-grid-css' href='https://www.belgiumuwh.be/wp-content/plugins/google-calendar-events/assets/css/default-calendar-grid.min.css' type='text/css' media='all' />
-<link rel='stylesheet' id='simcal-default-calendar-list-css' href='https://www.belgiumuwh.be/wp-content/plugins/google-calendar-events/assets/css/default-calendar-list.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='simcal-qtip-css' href='https://www.belgiumuwh.be/wp-content/plugins/google-calendar-events/assets/generated/vendor/jquery.qtip.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='simcal-default-calendar-grid-css' href='https://www.belgiumuwh.be/wp-content/plugins/google-calendar-events/assets/generated/default-calendar-grid.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='simcal-default-calendar-list-css' href='https://www.belgiumuwh.be/wp-content/plugins/google-calendar-events/assets/generated/default-calendar-list.min.css' type='text/css' media='all' />
 <link rel='stylesheet' id='jetpack_css-css' href='https://www.belgiumuwh.be/wp-content/plugins/jetpack/css/jetpack.css' type='text/css' media='all' />
 <link rel='stylesheet' id='wp-paginate-css' href='https://www.belgiumuwh.be/wp-content/plugins/wp-paginate/css/wp-paginate.css' type='text/css' media='screen' />
 <script type='text/javascript' src='https://www.belgiumuwh.be/wp-includes/js/jquery/jquery.min.js' id='jquery-core-js'></script>
@@ -70,7 +70,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <script type='text/javascript' src='https://www.belgiumuwh.be/wp-content/plugins/featured-video-plus/js/jquery.fitvids.min.js' id='jquery.fitvids-js'></script>
 <script type='text/javascript' id='fvp-frontend-js-extra'>
 /* <![CDATA[ */
-var fvpdata = {"ajaxurl":"https:\/\/www.belgiumuwh.be\/wp-admin\/admin-ajax.php","nonce":"f4ad9931fe","fitvids":"1","dynamic":"","overlay":"","opacity":"0.75","color":"b","width":"640"};
+var fvpdata = {"ajaxurl":"https:\/\/www.belgiumuwh.be\/wp-admin\/admin-ajax.php","nonce":"c37b2fdb39","fitvids":"1","dynamic":"","overlay":"","opacity":"0.75","color":"b","width":"640"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://www.belgiumuwh.be/wp-content/plugins/featured-video-plus/js/frontend.min.js' id='fvp-frontend-js'></script>
@@ -179,6 +179,7 @@ var ajaxurl = "https:\/\/www.belgiumuwh.be\/wp-admin\/admin-ajax.php";
 <li id="menu-item-24043" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24043"><a href="https://www.belgiumuwh.be/club-calendar/">Calendar</a></li>
 <li id="menu-item-29833" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-29833"><a href="https://www.belgiumuwh.be/underwaterhockey/">Underwaterhockey</a>
 <ul class="sub-menu">
+	<li id="menu-item-30014" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30014"><a href="https://www.belgiumuwh.be/start2uwh/">Start2UWH</a></li>
 	<li id="menu-item-26748" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-24880 current_page_item menu-item-26748"><a href="https://www.belgiumuwh.be/clubs-in-belgium/" aria-current="page">Clubs in Belgium</a></li>
 	<li id="menu-item-29144" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29144"><a href="https://www.belgiumuwh.be/clubs-in-belgium/equipment/">Equipment</a></li>
 </ul>
@@ -207,6 +208,7 @@ var ajaxurl = "https:\/\/www.belgiumuwh.be\/wp-admin\/admin-ajax.php";
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24043"><a href="https://www.belgiumuwh.be/club-calendar/">Calendar</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-29833"><a href="https://www.belgiumuwh.be/underwaterhockey/">Underwaterhockey</a>
 <ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30014"><a href="https://www.belgiumuwh.be/start2uwh/">Start2UWH</a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-24880 current_page_item menu-item-26748"><a href="https://www.belgiumuwh.be/clubs-in-belgium/" aria-current="page">Clubs in Belgium</a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29144"><a href="https://www.belgiumuwh.be/clubs-in-belgium/equipment/">Equipment</a></li>
 </ul>
@@ -358,20 +360,20 @@ var ajaxurl = "https:\/\/www.belgiumuwh.be\/wp-admin\/admin-ajax.php";
         </footer>
         <script type='text/javascript' src='https://www.belgiumuwh.be/wp-includes/js/imagesloaded.min.js' id='imagesloaded-js'></script>
 <script type='text/javascript' src='https://www.belgiumuwh.be/wp-includes/js/masonry.min.js' id='masonry-js'></script>
-<script type='text/javascript' src='https://www.belgiumuwh.be/wp-content/plugins/google-calendar-events/assets/js/vendor/jquery.qtip.min.js' id='simcal-qtip-js'></script>
+<script type='text/javascript' src='https://www.belgiumuwh.be/wp-content/plugins/google-calendar-events/assets/generated/vendor/jquery.qtip.min.js' id='simcal-qtip-js'></script>
 <script type='text/javascript' id='simcal-default-calendar-js-extra'>
 /* <![CDATA[ */
-var simcal_default_calendar = {"ajax_url":"\/wp-admin\/admin-ajax.php","nonce":"9854bebeeb","locale":"nl_NL","text_dir":"ltr","months":{"full":["januari","februari","maart","april","mei","juni","juli","augustus","september","oktober","november","december"],"short":["jan","feb","mrt","apr","mei","jun","jul","aug","sep","okt","nov","dec"]},"days":{"full":["zondag","maandag","dinsdag","woensdag","donderdag","vrijdag","zaterdag"],"short":["zo","ma","di","wo","do","vr","za"]},"meridiem":{"AM":"AM","am":"am","PM":"PM","pm":"pm"}};
+var simcal_default_calendar = {"ajax_url":"\/wp-admin\/admin-ajax.php","nonce":"d943b3a228","locale":"nl_NL","text_dir":"ltr","months":{"full":["januari","februari","maart","april","mei","juni","juli","augustus","september","oktober","november","december"],"short":["jan","feb","mrt","apr","mei","jun","jul","aug","sep","okt","nov","dec"]},"days":{"full":["zondag","maandag","dinsdag","woensdag","donderdag","vrijdag","zaterdag"],"short":["zo","ma","di","wo","do","vr","za"]},"meridiem":{"AM":"AM","am":"am","PM":"PM","pm":"pm"}};
 /* ]]> */
 </script>
-<script type='text/javascript' src='https://www.belgiumuwh.be/wp-content/plugins/google-calendar-events/assets/js/default-calendar-bundled.min.js' id='simcal-default-calendar-js'></script>
+<script type='text/javascript' src='https://www.belgiumuwh.be/wp-content/plugins/google-calendar-events/assets/generated/default-calendar.min.js' id='simcal-default-calendar-js'></script>
 <script defer type='text/javascript' src='https://stats.wp.com/e-202336.js' id='jetpack-stats-js'></script>
 <script id="jetpack-stats-js-after" type="text/javascript">
 _stq = window._stq || [];
 _stq.push([ "view", {v:'ext',blog:'183914214',post:'24880',tz:'1',srv:'www.belgiumuwh.be',j:'1:12.5'} ]);
 _stq.push([ "clickTrackerInit", "183914214", "24880" ]);
 </script>
-<script type='text/javascript' src='https://www.belgiumuwh.be/wp-content/plugins/google-calendar-events/assets/js/vendor/imagesloaded.pkgd.min.js' id='simplecalendar-imagesloaded-js'></script>
+<script type='text/javascript' src='https://www.belgiumuwh.be/wp-content/plugins/google-calendar-events/assets/generated/vendor/imagesloaded.pkgd.min.js' id='simplecalendar-imagesloaded-js'></script>
         <script>
             
                 jQuery(document).foundation();
