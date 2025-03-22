@@ -51,6 +51,66 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 :root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
 </style>
 <link rel='stylesheet' id='fvp-frontend-css' href='https://www.belgiumuwh.be/wp-content/plugins/featured-video-plus/styles/frontend.css' type='text/css' media='all' />
+<style id='akismet-widget-style-inline-css' type='text/css'>
+
+			.a-stats {
+				--akismet-color-mid-green: #357b49;
+				--akismet-color-white: #fff;
+				--akismet-color-light-grey: #f6f7f7;
+
+				max-width: 350px;
+				width: auto;
+			}
+
+			.a-stats * {
+				all: unset;
+				box-sizing: border-box;
+			}
+
+			.a-stats strong {
+				font-weight: 600;
+			}
+
+			.a-stats a.a-stats__link,
+			.a-stats a.a-stats__link:visited,
+			.a-stats a.a-stats__link:active {
+				background: var(--akismet-color-mid-green);
+				border: none;
+				box-shadow: none;
+				border-radius: 8px;
+				color: var(--akismet-color-white);
+				cursor: pointer;
+				display: block;
+				font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen-Sans', 'Ubuntu', 'Cantarell', 'Helvetica Neue', sans-serif;
+				font-weight: 500;
+				padding: 12px;
+				text-align: center;
+				text-decoration: none;
+				transition: all 0.2s ease;
+			}
+
+			/* Extra specificity to deal with TwentyTwentyOne focus style */
+			.widget .a-stats a.a-stats__link:focus {
+				background: var(--akismet-color-mid-green);
+				color: var(--akismet-color-white);
+				text-decoration: none;
+			}
+
+			.a-stats a.a-stats__link:hover {
+				filter: brightness(110%);
+				box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06), 0 0 2px rgba(0, 0, 0, 0.16);
+			}
+
+			.a-stats .count {
+				color: var(--akismet-color-white);
+				display: block;
+				font-size: 1.5em;
+				line-height: 1.4;
+				padding: 0 13px;
+				white-space: nowrap;
+			}
+		
+</style>
 <link rel='stylesheet' id='simcal-qtip-css' href='https://www.belgiumuwh.be/wp-content/plugins/google-calendar-events/assets/generated/vendor/jquery.qtip.min.css' type='text/css' media='all' />
 <link rel='stylesheet' id='simcal-default-calendar-grid-css' href='https://www.belgiumuwh.be/wp-content/plugins/google-calendar-events/assets/generated/default-calendar-grid.min.css' type='text/css' media='all' />
 <link rel='stylesheet' id='simcal-default-calendar-list-css' href='https://www.belgiumuwh.be/wp-content/plugins/google-calendar-events/assets/generated/default-calendar-list.min.css' type='text/css' media='all' />
@@ -70,7 +130,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 <script type="text/javascript" src="https://www.belgiumuwh.be/wp-content/plugins/featured-video-plus/js/jquery.fitvids.min.js" id="jquery.fitvids-js"></script>
 <script type="text/javascript" id="fvp-frontend-js-extra">
 /* <![CDATA[ */
-var fvpdata = {"ajaxurl":"https:\/\/www.belgiumuwh.be\/wp-admin\/admin-ajax.php","nonce":"4d84615ff9","fitvids":"1","dynamic":"","overlay":"","opacity":"0.75","color":"b","width":"640"};
+var fvpdata = {"ajaxurl":"https:\/\/www.belgiumuwh.be\/wp-admin\/admin-ajax.php","nonce":"5e088179d1","fitvids":"1","dynamic":"","overlay":"","opacity":"0.75","color":"b","width":"640"};
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://www.belgiumuwh.be/wp-content/plugins/featured-video-plus/js/frontend.min.js" id="fvp-frontend-js"></script>
@@ -341,7 +401,7 @@ var ajaxurl = "https:\/\/www.belgiumuwh.be\/wp-admin\/admin-ajax.php";
 <li>Friday: 20h45 – 22h30</li>
 <li>Adress pool: <a href="https://www.google.com/maps/place/Piscine+Nausicaa%2FWaterloo/@50.7166273,4.3947679,15z/data=!4m6!3m5!1s0x47c3d1d3db87ad4b:0x1ffe076291f888ed!8m2!3d50.7166273!4d4.3947679!16s%2Fg%2F11bzx3wlwz">Piscine Nausicaa</a>, Rue Théophile Delbar 33, 1410 Waterloo&nbsp;</li>
 </ul>
-<h3>Related Images:</h3>            </div>        </div>    </div></section>         <div class="float-behind">
+            </div>        </div>    </div></section>         <div class="float-behind">
                     </div>
        </main><!-- end main -->
         <footer class="strip-3 bg-4">
@@ -376,18 +436,18 @@ var ajaxurl = "https:\/\/www.belgiumuwh.be\/wp-admin\/admin-ajax.php";
 <script type="text/javascript" src="https://www.belgiumuwh.be/wp-content/plugins/google-calendar-events/assets/generated/vendor/jquery.qtip.min.js" id="simcal-qtip-js"></script>
 <script type="text/javascript" id="simcal-default-calendar-js-extra">
 /* <![CDATA[ */
-var simcal_default_calendar = {"ajax_url":"\/wp-admin\/admin-ajax.php","nonce":"7eced8a7a7","locale":"nl_NL","text_dir":"ltr","months":{"full":["januari","februari","maart","april","mei","juni","juli","augustus","september","oktober","november","december"],"short":["jan","feb","mrt","apr","mei","jun","jul","aug","sep","okt","nov","dec"]},"days":{"full":["zondag","maandag","dinsdag","woensdag","donderdag","vrijdag","zaterdag"],"short":["zo","ma","di","wo","do","vr","za"]},"meridiem":{"AM":"AM","am":"am","PM":"PM","pm":"pm"}};
+var simcal_default_calendar = {"ajax_url":"\/wp-admin\/admin-ajax.php","nonce":"c875b165f7","locale":"nl_NL","text_dir":"ltr","months":{"full":["januari","februari","maart","april","mei","juni","juli","augustus","september","oktober","november","december"],"short":["jan","feb","mrt","apr","mei","jun","jul","aug","sep","okt","nov","dec"]},"days":{"full":["zondag","maandag","dinsdag","woensdag","donderdag","vrijdag","zaterdag"],"short":["zo","ma","di","wo","do","vr","za"]},"meridiem":{"AM":"AM","am":"am","PM":"PM","pm":"pm"}};
 /* ]]> */
 </script>
 <script type="text/javascript" src="https://www.belgiumuwh.be/wp-content/plugins/google-calendar-events/assets/generated/default-calendar.min.js" id="simcal-default-calendar-js"></script>
-<script type="text/javascript" src="https://stats.wp.com/e-202512.js" id="jetpack-stats-js" data-wp-strategy="defer"></script>
-<script type="text/javascript" id="jetpack-stats-js-after">
+<script type="text/javascript" id="jetpack-stats-js-before">
 /* <![CDATA[ */
 _stq = window._stq || [];
-_stq.push([ "view", JSON.parse("{\"v\":\"ext\",\"blog\":\"183914214\",\"post\":\"24880\",\"tz\":\"1\",\"srv\":\"www.belgiumuwh.be\",\"j\":\"1:14.0\"}") ]);
+_stq.push([ "view", JSON.parse("{\"v\":\"ext\",\"blog\":\"183914214\",\"post\":\"24880\",\"tz\":\"1\",\"srv\":\"www.belgiumuwh.be\",\"j\":\"1:14.4.1\"}") ]);
 _stq.push([ "clickTrackerInit", "183914214", "24880" ]);
 /* ]]> */
 </script>
+<script type="text/javascript" src="https://stats.wp.com/e-202512.js" id="jetpack-stats-js" defer="defer" data-wp-strategy="defer"></script>
 <script type="text/javascript" src="https://www.belgiumuwh.be/wp-content/plugins/google-calendar-events/assets/generated/vendor/imagesloaded.pkgd.min.js" id="simplecalendar-imagesloaded-js"></script>
         <script>
             
